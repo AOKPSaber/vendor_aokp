@@ -14,6 +14,7 @@ PRODUCT_PACKAGES += \
     AOKPtips \
     AppWidgetPicker \
     LatinImeDictionaryPack \
+    LockClock \
     mGerrit \
     Microbes \
     PermissionsManager \
