@@ -1,3 +1,7 @@
+# Added NovaLauncher
+PRODUCT_COPY_FILES += \
+    vendor/aokp/prebuilt/common/app/NovaLauncher.apk:system/app/NovaLauncher.apk
+
 SUPERUSER_EMBEDDED := true
 
 # Common overlay
