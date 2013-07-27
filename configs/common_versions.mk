@@ -18,7 +18,7 @@ else
             ro.aokp.version=$(TARGET_PRODUCT)_nightly_$(DATE)
     else
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.aokp.version=$(TARGET_PRODUCT)_unofficial_$(DATE)
+        ro.aokp.version=AOKP-$(AOKP_PRODUCT)-UNOFFICIAL-SaberMod-4.9-$(shell date +"%Y%m%d")
     endif
 endif
 
