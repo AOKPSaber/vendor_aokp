@@ -26,6 +26,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/maserati.mk \
     $(LOCAL_DIR)/mint.mk \
     $(LOCAL_DIR)/odin.mk \
+    $(LOCAL_DIR)/p4.mk \
     $(LOCAL_DIR)/p930.mk \
     $(LOCAL_DIR)/pollux.mk \
     $(LOCAL_DIR)/pollux_windy.mk \
