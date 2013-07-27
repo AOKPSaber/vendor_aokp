@@ -1,3 +1,9 @@
+# Backup Tool
+PRODUCT_COPY_FILES += \
+    vendor/aokp/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
+    vendor/aokp/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
+    vendor/aokp/prebuilt/common/bin/50-aokp.sh:system/addon.d/50-aokp.sh
+
 # Added NovaLauncher
 PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/app/NovaLauncher.apk:system/app/NovaLauncher.apk
